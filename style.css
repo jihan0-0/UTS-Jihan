@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    text-align: center;
+    background-color: #8cc3a3;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #8cc3a3;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-list img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    color: #276541;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.language-skill {
+    margin-bottom: 1rem;
+}
+
+.language-skill label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 14px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #8cc3a3;
+    width: 0%;
+    transition: width 0.5s ease;
+}
+
+.cv-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    text-align: center;
+}
+.cv-container a {
+    font-size: 20px;
+}
